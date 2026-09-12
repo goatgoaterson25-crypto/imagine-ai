@@ -1,0 +1,5 @@
+package com.imagine.ai
+import android.app.Application
+import dagger.hilt.android.HiltAndroidApp
+@HiltAndroidApp
+class ImagineApp : Application()
