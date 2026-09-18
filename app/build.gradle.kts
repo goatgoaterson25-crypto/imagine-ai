@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "com.apollo.imagine-ai"
+    namespace = "com.apollo.imagineai"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.apollo.imagine-ai"
+        applicationId = "com.apollo.imagineai"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
