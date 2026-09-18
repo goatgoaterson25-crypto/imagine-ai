@@ -12,5 +12,5 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "Imagine AI"
+rootProject.name = "imagine-ai"
 include(":app")
