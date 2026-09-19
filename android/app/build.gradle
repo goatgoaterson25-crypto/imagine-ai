@@ -1,0 +1,21 @@
+plugins { id 'com.android.application' }
+android {
+    namespace 'com.apollo.imagineai'
+    compileSdk 34
+    defaultConfig {
+        applicationId "com.apollo.imagineai"
+        minSdk 22
+        targetSdk 34
+        versionCode 2
+        versionName "14-fix-5kb-bug"
+    }
+    buildTypes {
+        release { minifyEnabled false }
+        debug { minifyEnabled false }
+    }
+}
+dependencies {
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.getcapacitor:core:6.0.0'
+    implementation 'com.getcapacitor:android:6.0.0'
+}

@@ -1,0 +1,4 @@
+#!/bin/sh
+export JAVA_HOME=/data/data/com.termux/files/usr/lib/jvm/java-21-openjdk
+export PATH=$JAVA_HOME/bin:$PATH
+if [ -f "./gradle/wrapper/gradle-wrapper.jar" ]; then exec java -jar ./gradle/wrapper/gradle-wrapper.jar "$@"; else exec gradle "$@"; fi
